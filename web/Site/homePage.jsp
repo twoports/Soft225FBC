@@ -13,7 +13,7 @@
         <title>FoodBankClub.org Donate-Join-Order</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
     </head>
  <body>
         <script src="js/jquery/jquery.js"></script>
@@ -30,7 +30,7 @@
 
                 <div class="span4 offset2" style="margin-top:15px;">
                 <div id="browse_app">  
-                    <a class="btn pull-right"href="Site/loginJoinup.jsp">Login/Logout</a>
+                    <a class="btn pull-right"href="loginJoinup.jsp">Login/Logout</a>
                 </div>
                 </div>
             </div>

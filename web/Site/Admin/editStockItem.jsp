@@ -1,23 +1,22 @@
 <%-- 
-    Document   : homePage
-    Created on : 10-Mar-2014, 22:00:27
+    Document   : index
+    Created on : 12-Jan-2014, 10:20:08
     Author     : MacBootCamp
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
-<f:view>
-    <html>
+<html>
     <head>
-        <title>FoodBankClub.org Donate-Join-Order</title>
+        <title>FoodBankClub Admin Functions</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../../css/bootstrap.css" type="text/css">
     </head>
  <body>
         <script src="js/jquery/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>      
+        <script src="js/bootstrap.js"></script>
         <div class="container">
   <div class="row">
     <div class="span12">
@@ -25,14 +24,14 @@
         <div class="row-fluid">
             <div class="span12">
                 <div class="span6">
-                    <h1 class="muted">Food Bank Club Home</h1>
+                    <h1 class="muted">Food Bank Club Admin: Edit Stock Item</h1>
                 </div>
 
                 <div class="span4 offset2" style="margin-top:15px;">
                 <div id="browse_app">  
-                    <a class="btn pull-right"href="Site/loginJoinup.jsp">Login/Logout</a>
+                    <a class="btn pull-right"href="../loginJoinup.jsp">Logout</a>
                 </div>
-                </div>
+               </div>
             </div>
         </div>
 
@@ -41,33 +40,32 @@
                 <div class="container">
                     <ul class="nav">
                         
+                        <li>
+                            <a href="newSupplier.jsp">New Supplier</a>
+                        </li>
+                        
+                        <li>
+                            <a href="supplierEdit.jsp">Edit Supplier</a>
+                        </li>
 
                         <li>
-                            <a href="Site/About/aboutMembers.jsp">Member</a>
-                        </li>
-
-                        <li>
-                            <a href="Site/About/aboutClubs.jsp">Club</a>
-                        </li>
-
-                        <li>
-                            <a href="Site/About/aboutSuppliers.jsp">Supplier</a>
+                            <a href="supplierDelete.jsp">Delete Supplier</a>
                         </li>
                         
                         <li>
-                            <a href="Site/About/aboutOrders.jsp">Order</a>
+                             <a href="newClub.jsp">New Club</a>
                         </li>
                         
                         <li>
-                             <a href="Site/About/aboutStock.jsp">Stock</a>
+                            <a href="clubAdminEdit.jsp">Edit Club</a>
                         </li>
                         
                         <li>
-                             <a href="Site/About/aboutUs.jsp">Contact Us</a>
+                            <a href="clubDelete.jsp">Delete Club</a>
                         </li>
                         
                         <li>
-                             <a href="Site/About/aboutDonors.jsp">Donate</a>
+                             <a href="newStockItem.jsp">New Stock</a>
                         </li>
                         
                       
@@ -78,27 +76,16 @@
       </div>
     </div>
   </div>
-     <div class="hero-unit"> 
-                We support our clubs obtain great deals on healthy food from our suppliers for 
-                their members assisted by our donors and members contributions. <br>
-                All our food items are VAT FREE, we don't sell many processed foods and our packaging 
-                is always minimised.<br>
-                Deliveries are free of charge. This gives local producers an advantage and reduces food 
-                delivery miles. It also helps keep local money in local pockets.<br>
-                We think you will like our benefits please join today. Lookup up your local club 
-                in the clubs page to find out more.<br>
-               
-                <div   
+       
          
         
 <div class="hero-unit">     
   <div class="row">
     <div class="col-lg-4">
       <div class="col-md-3">
+       
+        <a href="../../welcomeJSF.jsp" class="btn btn-medium btn-warning">Home</a>  
                
-        <a href="loginJoinup.jsp" class="btn btn-medium btn-success">Join Us</a> 
-        
-        
       </div>
     </div>
   </div> 
@@ -120,5 +107,3 @@
    </body>
 </html>
 
-
-</f:view>
